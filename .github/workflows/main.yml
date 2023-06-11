@@ -1,7 +1,7 @@
 name: Run wakatime-to-toggl every hour
 on:
   schedule:
-    - cron: "0 * * * *" # Every hour
+    - cron: "10 14 * * *" # Every hour
 jobs:
   run:
     runs-on: ubuntu-latest
